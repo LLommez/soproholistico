@@ -329,41 +329,5 @@ body {
     margin-bottom: 4rem;
 }
 
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column; /* Muda a direção do flex para coluna */
-        padding: 1rem;
-    }
-    
-    .header .menu {
-        flex-direction: column; /* Muda o menu para coluna */
-        gap: 0.5rem;
-    }
-    
-    .hero-content h2 {
-        font-size: 2rem; /* Reduz o tamanho da fonte */
-    }
 
-    .hero-content p {
-        font-size: 1rem; /* Reduz o tamanho da fonte */
-    }
-
-    .service-card {
-        padding: 1rem; /* Reduz o padding dos cards de serviço */
-    }
-
-    .about-content {
-        flex-direction: column; /* Muda a direção do flex para coluna */
-        align-items: center; /* Alinha itens ao centro */
-        gap: 2rem; /* Reduz o espaço entre os itens */
-    }
-
-    .about-image img {
-        max-height: 300px; /* Limita a altura das imagens */
-    }
-
-    .contact form {
-        width: 90%; /* Limita a largura do formulário */
-    }
-}
 
